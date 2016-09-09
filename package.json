@@ -1,0 +1,26 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.15.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rish2394/API-Designing-with-NodeJS.git"
+  },
+  "author": "rishabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rish2394/API-Designing-with-NodeJS/issues"
+  },
+  "homepage": "https://github.com/rish2394/API-Designing-with-NodeJS#readme"
+}
