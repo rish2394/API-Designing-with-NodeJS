@@ -1,0 +1,40 @@
+{
+  "tigers": [
+    {
+       "name": "hulk",
+       "age": 3,
+        "id": 1,
+        "gender": "male"
+    },
+    {
+      "name": "stacy",
+      "age": 4,
+       "id": 2,
+       "gender": "female"
+    },
+    {
+      "name": "gordon",
+      "age": 1,
+       "id": 3,
+       "gender": "male"
+    },
+    {
+      "name": "lanny",
+      "age": 5,
+       "id": 4,
+       "gender": "female"
+    },
+    {
+      "name": "tori",
+      "age": 9,
+       "id": 5,
+       "gender": "female"
+    },
+    {
+      "name": "homy",
+      "age": 3,
+       "id": 6,
+       "gender": "male"
+    }
+  ]
+}

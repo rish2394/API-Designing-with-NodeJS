@@ -1,0 +1,46 @@
+{
+  "lions": [
+    {
+      "name": "simba",
+      "id": 1,
+      "age": 6,
+      "pride": "the cool cats",
+      "gender":"male"
+    },
+    {
+      "name": "zsimba",
+      "id": 2,
+      "age": 1,
+      "pride": "the fool cats",
+      "gender":"female"
+    },
+    {
+      "name": "akira",
+      "id": 3,
+      "age": 7,
+      "pride": "the beautiful cats",
+      "gender":"female"
+    },
+    {
+      "name": "zika",
+      "id": 4,
+      "age": 9,
+      "pride": "the old cats",
+      "gender":"femal"
+    },
+    {
+      "name": "jitter",
+      "id": 5,
+      "age": 3,
+      "pride": "the angry cats",
+      "gender":"male"
+    },
+    {
+      "name": "brutus",
+      "id": 6,
+      "age": 4,
+      "pride": "the big cats",
+      "gender":"male"
+    }
+  ]
+}
