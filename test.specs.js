@@ -78,9 +78,29 @@ describe('DELETE /lions/id', function(){
       .expect('Content-Type', /json/)
       .end(function(err, res){
         if(err) return done(err);
-        console.log('res.body=',res.body);
+      //  console.log('res.body=',res.body);
         chai(res.body.name).to.be.equal('brutus');
         done();
       })
+  })
+})
+
+describe('PUT lions/id', function(){
+  it('should update the lion specified id', function(done){
+    request(app)
+    .put('/lions/4')
+    .set('Accept', 'application/json')
+    .expect('Content-Type', /json/)
+    .send({
+      "name":"chunnu",
+      "age": 7
+    })
+    .end(function(err, resp){
+      if(err) return done(err);
+      //console.log(resp.body);
+      chai(resp.body.name).to.be.equal("chunnu");
+      chai(resp.body.age).to.be.equal(7);
+      done();
+    })
   })
 })
